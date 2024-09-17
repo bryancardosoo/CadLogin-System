@@ -7,6 +7,19 @@
     <title>Login</title>
 </head>
 <body>
-    
+    <main>
+        <form action="">
+            <section>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="email" required>
+            </section>
+            <section>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder="Senha" required>
+            </section>
+            <button type="submit">Login</button>
+        </form>
+        <a href="">Cadastre-se</a>
+    </main>
 </body>
 </html>
